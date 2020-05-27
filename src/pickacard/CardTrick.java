@@ -15,7 +15,7 @@ public class CardTrick {
         
         Card[] magicHand = new Card[7];
         
-        boolean win = false;
+        boolean win = false; // default boolean value is st to be false
 
         for (int i = 0; i < magicHand.length; i++) {
         
@@ -31,9 +31,9 @@ public class CardTrick {
         //insert code to ask the user for Card value and suit, create their card
         Card luckyCard = new Card();
         
-        luckyCard.setValue(4);
+        luckyCard.setValue(4); // number 4 is set to be lucky card number
         
-        luckyCard.setSuit("Spade");
+        luckyCard.setSuit("Spade"); // spade is set to be lucky card suit
         // and search magicHand here
         for (int i = 0; i < magicHand.length; i++) {
             
